@@ -1,0 +1,16 @@
+# Mediterranean Quantitative Finance Society (MQFS)
+# Core pipeline dependencies
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+
+# Real ERA5 data — optional
+# pip install cdsapi xarray netCDF4
+# Then configure ~/.cdsapirc (see README)
