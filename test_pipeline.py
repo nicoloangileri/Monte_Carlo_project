@@ -7,7 +7,6 @@ Coverage
 --------
 TestDataLoader      — ingestion, validation, synthetic generator
 TestSeasonality     — CRITICAL regression tests for seasonal direction
-TestTsModel         — STL, SARIMA, annual aggregates, fit_all integration
 TestGarchMLE        — MLE convergence, parameter bounds, fallback path
 TestNumerical       — edge cases, long series, near-zero variance
 
