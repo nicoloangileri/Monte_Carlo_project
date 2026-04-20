@@ -128,7 +128,7 @@ def generate_synthetic_weather(
         cfg: Optional[SyntheticWeatherConfig] = None) -> pd.DataFrame:
     """
     Generate a synthetic daily weather series.
-    ⚠  NOT real data. Used only as last-resort fallback.
+    NOT real data. Used only as last-resort fallback.
 
     Returns pd.DataFrame with columns [date, temperature_c, rainfall_mm].
     """
@@ -166,7 +166,7 @@ def generate_synthetic_weather(
         "rainfall_mm":   rainfall,
     })
     log.warning(
-        "⚠  ON-THE-FLY SYNTHETIC data: %d observations (%s → %s). "
+        " ON-THE-FLY SYNTHETIC data: %d observations (%s → %s). "
         "NOT real measurements. Run era5_fetcher.py for real data.",
         n, cfg.start_date, cfg.end_date,
     )
