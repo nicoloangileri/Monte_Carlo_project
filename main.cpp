@@ -126,10 +126,7 @@ int main(int argc, char* argv[])
     const std::string params_path = (argc > 1) ? argv[1] : "data/fitted_params.json";
     const int         n_paths     = (argc > 2) ? std::atoi(argv[2]) : 500'000;
 
-    std::cout << "╔══════════════════════════════════════════════╗\n"
-              << "║  MQFS — MC Pricing Engine v2.0               ║\n"
-              << "║  Mediterranean Quantitative Finance Society   ║\n"
-              << "╚══════════════════════════════════════════════╝\n"
+    std::cout << 
               << "Paths requested: " << n_paths << "\n\n";
 
     // ── Load fitted model parameters ─────────────────────────────────────
