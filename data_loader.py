@@ -10,7 +10,7 @@ Priority order
 3.  data/sicily_reference_synthetic.csv  ← calibrated synthetic (ships with repo)
 4.  On-the-fly synthetic generator (last resort fallback)
 
-⚠  DATA TRANSPARENCY
+ DATA TRANSPARENCY
      data/sicily_reference_synthetic.csv contains 12,418 SYNTHETIC daily
      observations (1990-01-01 → 2023-12-31). Parameters are calibrated on
      published SIAS Palermo-Boccadifalco climate normals (ISPRA/SIAS, 2021)
