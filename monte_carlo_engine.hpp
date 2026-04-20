@@ -103,10 +103,7 @@ struct PricingResult {
     long   n_paths_used;
 
     void print() const {
-        std::cout << "\n╔══════════════════════════════════════════════╗\n"
-                  << "║  MQFS — Drought Micro-Insurance Pricing       ║\n"
-                  << "║  Mediterranean Quantitative Finance Society   ║\n"
-                  << "╚══════════════════════════════════════════════╝\n"
+        std::cout << 
                   << std::fixed;
         std::cout.precision(2);
         std::cout << "  Price (€):             " << price_eur            << "\n"
